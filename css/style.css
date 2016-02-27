@@ -51,6 +51,7 @@ h3 {
 	border-bottom: 70px solid red;
 	position: relative;
 	top: -50px;
+  left: 47px;
 }
 
 #diamond-narrow:after {
@@ -77,5 +78,60 @@ h3 {
     background-color: white;
 }
 
+/* King */
+#king {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    left: 100px;
+    top: 150px;
+    z-index: 1;
+    background-color: white;
+}
+
+/* Queen */
+#queen {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    left: 195px;
+    top: 150px;
+    z-index: 1;
+    background-color: white;
+}
+
+/* Jack */
+#jack {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    left: 290px;
+    top: 150px;
+    z-index: 1;
+    background-color: white;
+}
+
+/* Ten */
+#ten {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    left: 385px;
+    top: 150px;
+    z-index: 1;
+    background-color: white;
+}
 
 
